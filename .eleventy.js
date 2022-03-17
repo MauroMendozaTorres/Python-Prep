@@ -24,7 +24,7 @@ const mdAnchorOpts = {
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.setLibrary(
-    'md',
+    'm',
     markdownIt(mdOptions)
       .use(markdownItAnchor, mdAnchorOpts)
       .use(markdownItHighlightJS)
